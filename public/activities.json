@@ -1,0 +1,207 @@
+{
+  "A": [
+    "Afternoon tea at a fancy hotel",
+    "Art museum visit",
+    "Adventure hike",
+    "Airplane ride",
+    "Amusement park day",
+    "Art class together"
+  ],
+  "B": [
+    "Breakfast in bed",
+    "Brunch at a trendy spot",
+    "Brewery or winery tour",
+    "Bike ride through a nearby park",
+    "Beach day",
+    "Bookstore crawl"
+  ],
+  "C": [
+    "Couples' massage",
+    "Cooking class",
+    "Concert or show",
+    "Coffee tasting",
+    "Castle visit",
+    "Camping trip"
+  ],
+  "D": [
+    "Dinner at a Michelin-starred restaurant",
+    "Dance lessons (salsa, swing, or ballroom)",
+    "Day trip to a nearby city",
+    "Distillery tour",
+    "DIY project together (woodworking, painting, etc.)",
+    "Donut tasting"
+  ],
+  "E": [
+    "Escape room challenge",
+    "Evening stroll through a botanical garden",
+    "Elegant dinner at home",
+    "Exhibition visit (art, science, or history)",
+    "Early morning sunrise hike",
+    "Evening concert or jazz club"
+  ],
+  "F": [
+    "Foodie tour",
+    "Flower arranging class",
+    "Fishing trip",
+    "Fitness class together (yoga, Pilates, etc.)",
+    "French patisserie visit",
+    "Ferris wheel ride"
+  ],
+  "G": [
+    "Game night (board games or video games)",
+    "Garden tour",
+    "Gourmet picnic",
+    "Geocaching adventure",
+    "Ghost tour",
+    "Gallery visit"
+  ],
+  "H": [
+    "Hot air balloon ride",
+    "Horseback ride",
+    "History museum visit",
+    "Hike to a scenic spot",
+    "Homemade dinner together",
+    "Harbor cruise"
+  ],
+  "I": [
+    "Ice skating",
+    "Italian cooking class",
+    "Island getaway",
+    "Indoor skydiving",
+    "Intimate dinner at a cozy restaurant",
+    "Ice cream tasting"
+  ],
+  "J": [
+    "Jazz club visit",
+    "Japanese tea ceremony",
+    "Jigsaw puzzle challenge",
+    "Jeep tour",
+    "Jewelry-making class",
+    "Just relax (a spa day at home!)"
+  ],
+  "K": [
+    "Kayaking trip",
+    "Karaoke night",
+    "Kite-flying adventure",
+    "Kitchen gadget shopping spree",
+    "Korean BBQ dinner",
+    "Knitting or crochet class"
+  ],
+  "L": [
+    "Luau dinner",
+    "Live music concert",
+    "Lighthouse visit",
+    "Lake day",
+    "Language class (learn a new language together!)",
+    "Luxury spa day"
+  ],
+  "M": [
+    "Movie night (classic films or recent releases)",
+    "Museum visit (art, science, or history)",
+    "Mini golf or bowling",
+    "Murder mystery dinner",
+    "Music festival",
+    "Morning meditation session"
+  ],
+  "N": [
+    "Nighttime stroll through a park",
+    "Nature photography walk",
+    "Nacho-making class",
+    "Neighborhood exploration (discover new shops and cafes)",
+    "New restaurant try-out",
+    "National park visit"
+  ],
+  "O": [
+    "Outdoor movie night",
+    "Olive oil tasting",
+    "Observatory visit",
+    "Oceanfront dinner",
+    "Outdoor adventure (rock climbing, zip-lining, etc.)",
+    "Oenology class (wine appreciation)"
+  ],
+  "P": [
+    "Picnic in a park",
+    "Painting class",
+    "Pastry-making class",
+    "Photography walk",
+    "Piano concert or lesson",
+    "Paddle-boarding trip"
+  ],
+  "Q": [
+    "Quiet evening at home (cook dinner together and relax)",
+    "Quirky museum visit (something unusual and fun!)",
+    "Quality time together (play a board game or do a puzzle)",
+    "Quaint town visit (explore a charming nearby town)",
+    "Quiche-making class (because brunch is the best!)"
+  ],
+  "R": [
+    "Romantic dinner at home",
+    "Road trip to a nearby city",
+    "Restaurant crawl (try a few new spots)",
+    "Relaxation day (spa treatments and lounging)",
+    "River cruise or boat tour",
+    "Rock climbing adventure"
+  ],
+  "S": [
+    "Sunset hike",
+    "Sushi-making class",
+    "Symphony concert",
+    "Stargazing night",
+    "Spa day at home (set up a relaxing space and pamper each other)",
+    "Scavenger hunt"
+  ],
+  "T": [
+    "Tapas night",
+    "Theater performance",
+    "Tea tasting",
+    "Tango lessons",
+    "Trivia night",
+    "Tandem bike ride"
+  ],
+  "U": [
+    "Uptown food tour",
+    "Urban hike",
+    "Ukulele lessons",
+    "Underwater adventure (snorkeling or scuba diving)",
+    "Unwind together (meditation or yoga class)",
+    "Unique experience (try something new and unusual!)"
+  ],
+  "V": [
+    "Vineyard visit",
+    "Vintage shopping spree",
+    "Visit a local farm or petting zoo",
+    "Vision board creation (set goals and intentions)",
+    "Vocal lessons"
+  ],
+  "W": [
+    "Wine and cheese tasting",
+    "Weekend getaway",
+    "Waterfall hike",
+    "Wine-making class",
+    "Walking tour (explore a new neighborhood)",
+    "Wellness day (focus on self-care and relaxation)"
+  ],
+  "X": [
+    "X-treme adventure (skydiving, bungee jumping, etc.)",
+    "Xylophone lessons",
+    "X-country skiing",
+    "X-tra special dinner (try a new cuisine or restaurant)",
+    "X-quisite art museum visit (focus on a specific style or artist)"
+  ],
+  "Y": [
+    "Yoga class",
+    "Yacht tour",
+    "Yellow-themed dinner",
+    "Yogurt-making class",
+    "Yard games (set up a fun outdoor space)",
+    "Years-in-review reflection"
+  ],
+  "Z": [
+    "Zip-lining adventure",
+    "Zen garden visit",
+    "Zinfandel wine tasting",
+    "Zumba class",
+    "Zero-gravity experience",
+    "Zoo visit"
+  ]
+}

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Gift, RefreshCcw, Search, Shuffle, Heart } from "lucide-react";
+import ScrabbleHeader from './ScrabbleHeader';
 
 const AnniversarySelector = () => {
   const [selectedLetter, setSelectedLetter] = useState(null);
@@ -139,7 +140,7 @@ const AnniversarySelector = () => {
     setIsShufflingActivities(false);
     setSelectedActivity(null);
   };
-
+  
   if (isLoading) {
     return (
       <div className="max-w-2xl mx-auto p-4">
@@ -202,9 +203,7 @@ const AnniversarySelector = () => {
               </div>
             ) : (
               <>
-                <h3 className="text-xl font-bold mb-4">
-                  Your letter: {selectedLetter}
-                </h3>
+                <ScrabbleHeader letter={selectedLetter} />
                 <div className="space-y-2">
                   {activityList.map((activity, index) => (
                     <div
@@ -255,4 +254,4 @@ const AnniversarySelector = () => {
   );
 };
 
-export default AnniversarySelector;  
+export default AnniversarySelector;

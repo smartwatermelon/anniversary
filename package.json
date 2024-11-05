@@ -1,5 +1,6 @@
 {
   "name": "anniversary",
+  "homepage": "https://smartwatermelon.github.io/anniversary",
   "version": "1.0.0",
   "description": "26th Anniversary Activity Selector",
   "main": "index.js",

@@ -1,3 +1,7 @@
+const BASE_URL = import.meta.env.MODE === 'production'
+  ? '/anniversary'
+  : '';
+
 import React, { useState, useEffect } from 'react';
 import { Gift, RefreshCcw, Search, Shuffle, Heart } from "lucide-react";
 import ScrabbleHeader from './ScrabbleHeader';
@@ -28,11 +32,11 @@ const AnniversarySelector = () => {
   useEffect(() => {
     const loadResources = async () => {
       try {
-        const activitiesResponse = await fetch('/activities.json');
+        const activitiesResponse = await fetch(`${BASE_URL}/activities.json`);
         const loadedActivities = await activitiesResponse.json();
         setActivities(loadedActivities);
 
-        const phrasesResponse = await fetch('/phrases.json');
+        const phrasesResponse = await fetch(`${BASE_URL}/phrases.json`);
         const loadedPhrases = await phrasesResponse.json();
         setSearchPhrases(loadedPhrases);
         setSearchPhrase(loadedPhrases[0]);

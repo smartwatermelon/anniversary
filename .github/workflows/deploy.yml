@@ -22,12 +22,6 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Create public directory
-        run: |
-          mkdir -p public
-          cp activities.json public/
-          cp phrases.json public/
-
       - name: Install dependencies
         run: npm ci
 
@@ -39,4 +33,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          

@@ -4,8 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/anniversary/', // the repo name
-//  base: '/', // We'll change this to '/anniversary/' when deploying to GitHub Pages
+  base: process.env.NODE_ENV === 'production' ? '/anniversary/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

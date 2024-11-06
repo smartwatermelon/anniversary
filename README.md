@@ -21,26 +21,26 @@ You can view the live demo at: [`https://smartwatermelon.github.io/anniversary`]
 1. Clone the repository:
 
 	```bash
-git clone https://github.com/smartwatermelon/anniversary.git && cd anniversary
-```
+	git clone https://github.com/smartwatermelon/anniversary.git && cd anniversary
+	```
 
 2. Install dependencies:
 
 	```bash
-npm install
-```
+	npm install
+	```
 
 3. Run the development server:
 
 	```bash
-npm run dev
-```
+	npm run dev
+	```
 
 4. Build for production:
 
 	```bash
-npm run build
-```
+	npm run build
+	```
 
 ## Customizing Activities and Phrases
 

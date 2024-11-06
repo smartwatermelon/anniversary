@@ -23,22 +23,19 @@
 
   .scrabble-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.5rem;
     margin: 1rem 0.5rem;
     max-width: 500px;
     margin-inline: auto;
     padding: 0 0.5rem;
+    justify-content: center;
   }
 
-  /* Center first row (A, B, C) */
-  .scrabble-grid > button:nth-child(-n+3) {
-    grid-column: 2 span 1;
-  }
-
-  /* Center last row (X, Y, Z) */
-  .scrabble-grid > button:nth-last-child(-n+3) {
-    grid-column: 2 span 1;
+  @media (max-width: 399px) {
+    /* Center the last two letters (Y, Z) */
+    .scrabble-grid > button:nth-last-child(2) { grid-column: 2; }
+    .scrabble-grid > button:nth-last-child(1) { grid-column: 3; }
   }
 
   @media (min-width: 400px) {
@@ -54,14 +51,11 @@
     .scrabble-grid > button:nth-last-child(-n+3) {
       grid-column: auto;
     }
-  }
 
-  @media (min-width: 400px) {
-    .scrabble-grid {
-      grid-template-columns: repeat(7, 1fr);
-      gap: 0.75rem;
-      margin: 1.5rem 0.75rem;
-      padding: 0;
+    /* Reset specific first/last letter positioning */
+    .scrabble-grid > button:nth-child(1),
+    .scrabble-grid > button:nth-last-child(3) {
+      grid-column: auto;
     }
   }
 
